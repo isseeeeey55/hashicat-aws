@@ -7,7 +7,7 @@ module "s3-bucket" {
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket_prefix = ${var.prefix}
+  bucket_prefix = "Gaurav"
   acl    = "private"
 
   versioning = {
